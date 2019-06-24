@@ -5,7 +5,6 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   // test
   res.render('index', { title: 'Crazy Rider..' });
-  //<img class="logo" src="http://localhost:3000/images/car.jpeg" alt="My_Logo"></img>
 });
 
 const Datas = [
@@ -23,7 +22,7 @@ const Datas = [
     data2: 'I am just 20',
     data3: 'Basicaly i am from INDIA . But i am settel in Barrie',
     data4: 'I have a puppy called Toby',
-    data5: 'My main hobby is Riding  with My Car.'
+    data5: 'My main hobby is Riding  with My Car, And playing with my puppy.'
   },
   {
     route: 'Contact Me',
