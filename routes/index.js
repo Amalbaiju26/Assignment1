@@ -5,6 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   // test
   res.render('index', { title: 'Crazy Rider..' });
+  //<img class="logo" src="http://localhost:3000/images/car.jpeg" alt="My_Logo"></img>
 });
 
 const Datas = [
