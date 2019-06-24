@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   // test
-  res.render('index', { title: 'Amaluss' });
+  res.render('index', { title: 'Crazy Rider..' });
 });
 
 const Datas = [
